@@ -6,15 +6,57 @@
   }
 
   ul, ol {
-    list-style-type: none ;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
+  h1, 
+  h2,
+  h3,
+  h4,
+  h5,
+  h6, 
+  p {
+    margin: 0;
   }
 
   a {
     text-decoration: none;
   }
 
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
   /* header */
+  .page-header {
+    border-bottom: 1px solid #e7e9fc;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
 
   .logo {
     font-family: "Raleway", sans-serif;
@@ -27,6 +69,11 @@ text-transform: uppercase;
 color: #4d5ae5;
   }
 
+  .header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+  }
+
   .header-logo .logo-part {
     color: #2e2f42;
   }
@@ -36,6 +83,8 @@ color: #4d5ae5;
     }
 
   .nav-link {
+      display: block;
+      padding: 24px 0;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px; 
@@ -46,9 +95,12 @@ color: #4d5ae5;
 
   .header-address {
     font-style: normal;
+    margin-left: auto;
   }
 
   .address-link {
+    display: block;
+    padding: 24px 0;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -64,10 +116,15 @@ color: #4d5ae5;
   /* business  */
 
   .business-section {
+    margin: 0 auto;
+    padding: 188px 0 48px 0;
     background-color:#2e2f42
   }
 
   .business-title {
+       margin: 0 auto;
+        max-width: 496px;
+        height: 120px;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -77,6 +134,8 @@ color: #4d5ae5;
   }
 
   .business-button {
+    display: block;
+    margin: 0 auto;
         background-color: #4d5ae5;
         font-weight: 500;
         line-height: 1.5;
@@ -91,6 +150,22 @@ color: #4d5ae5;
   }
 
   /* work */
+
+  .work-section {
+    padding: 120px 0;
+  }
+
+  .work-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+  }
+
+  .work-item {
+    width: calc((100% - 72px)/4);
+  }
+
 
   .work-title {
         font-weight: 500;
@@ -112,9 +187,12 @@ color: #4d5ae5;
 
   .team-section {
     background-color: #F4F4FD;
+    padding: 120px 0;
   }
 
   .title-team {
+      padding: 72px 0;
+       margin: 0 auto;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -124,8 +202,20 @@ color: #4d5ae5;
         text-transform: capitalize;
   }
 
+  .team-div {
+    padding: 32px 16px;
+  }
+
+  .team-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+  }
+
   .team-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
   }
 
   .team-title {
@@ -138,6 +228,7 @@ color: #4d5ae5;
   }
 
   .team-text {
+    padding: 8px 0;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -147,6 +238,10 @@ color: #4d5ae5;
   }
 
   /* portfolio */
+
+  .portfolio-section {
+    padding: 120px 0;
+  }
 
   .title-portfolio {
         font-weight: 700;
@@ -158,6 +253,17 @@ color: #4d5ae5;
         text-transform: capitalize;
   }
 
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 48px 24px;
+  }
+
+  .portfolio-div {
+    padding: 32px 0 64px 16px;
+  }
+
   .portfolio-title {
     font-weight: 500;
     font-size: 20px;
@@ -167,6 +273,7 @@ color: #4d5ae5;
   }
 
   .portfolio-text {
+    padding: 8px 0;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -177,15 +284,26 @@ color: #4d5ae5;
   /* footer */
 
   .page-footer {
-    background-color: #2e2f42;;
+    background-color: #2e2f42;
+    padding: 120px 0 0 0;
+  }
+
+  .footer-div {
+    padding: 100px 0;
   }
 
   .footer-text {
+    max-width: 264px;
+    min-height: 72px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+  }
+
+  .logo footer {
+    padding: 0 0 16px 0;
   }
 
 
