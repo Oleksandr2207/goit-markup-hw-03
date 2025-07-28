@@ -117,12 +117,14 @@ color: #4d5ae5;
 
   .business-section {
     margin: 0 auto;
-    padding: 188px 0 48px 0;
+    padding-top: 188px; 
+    padding-bottom: 120px;
     background-color:#2e2f42
   }
 
   .business-title {
        margin: 0 auto;
+       padding-bottom: 48px;
         max-width: 496px;
         height: 120px;
         font-weight: 700;
@@ -136,6 +138,9 @@ color: #4d5ae5;
   .business-button {
     display: block;
     margin: 0 auto;
+    margin-bottom: 188px; 
+    margin-top: 48px;
+    padding: 16px 32px;
         background-color: #4d5ae5;
         font-weight: 500;
         line-height: 1.5;
@@ -191,7 +196,7 @@ color: #4d5ae5;
   }
 
   .title-team {
-      padding: 72px 0;
+      padding-bottom: 72px;
        margin: 0 auto;
         font-weight: 700;
         font-size: 36px;
@@ -244,6 +249,7 @@ color: #4d5ae5;
   }
 
   .title-portfolio {
+    padding-bottom: 72px;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -293,6 +299,8 @@ color: #4d5ae5;
   }
 
   .footer-text {
+    padding-bottom: 100px;
+    padding-top: 16px;
     max-width: 264px;
     min-height: 72px;
         font-weight: 400;
@@ -300,10 +308,6 @@ color: #4d5ae5;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-  }
-
-  .logo footer {
-    padding: 0 0 16px 0;
   }
 
 
